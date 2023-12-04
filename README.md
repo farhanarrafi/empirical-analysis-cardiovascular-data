@@ -1,16 +1,16 @@
-# CardioVascular Data Analysis - An Emipirical Analysis
+# CardioVascular Data Analysis - An Empirical Study
 
 ## Introduction
 
-This project aims to provide a detailed analysis of Patient Data and their relation to different stages of Hypertension. In this study, we have analyze the relation of a subject’s weight, systolic blood pressure and diastolic blood pressure to the Hypertension stage of the subject. In this project we have only used Hypertension Stage 1 and Hypertension stage 2 as target categories.
+This project aims to provide a detailed analysis of Patient Data and their relation to different stages of Hypertension. In this study, we have analyzed the relation of a subject’s weight, systolic blood pressure, and diastolic blood pressure to the Hypertension stage of the subject. In this project, we have only used Hypertension Stage 1 and Hypertension Stage 2 as target categories.
 
-**Important**: To run the notebook you will have to get a API Token from Kaggle. Follow the instructions to run the notebook:
+**Important**: To run the notebook you will have to get an API Token from Kaggle. Follow the instructions to run the notebook:
 
 ### Instructions
 
 1. Create a new API Token.
-2. Download the API Token and open the (downloaded) json file as text file.
-3. Copy the key from the json file and replace the following line:
+2. Download the API Token and open the (downloaded) JSON file as a text file.
+3. Copy the key from the JSON file and replace the following line:
 
 ```json
 {"username":"farhanarrafi","key":"get_a_key_from_kaggle_to_run_the_notebook"}
@@ -51,23 +51,23 @@ This project aims to provide a detailed analysis of Patient Data and their relat
 
 Using only Systolic BP and Diastolic BP provides better predictions than using all three - Weight, Systolic BP and Diastolic BP.
 
-For more details you can check the [final presentation](Final_Presentation.pdf).
+For more details, you can check the [final presentation](Final_Presentation.pdf).
 
 ![Results](images/2_var_vs_3_var.png)
 
 ## Dataset Source
 
-For this project we have collected the data from the Kaggle dataset - “[Cardiovascular Disease by Aidan](https://www.kaggle.com/datasets/colewelkins/cardiovascular-disease)”.
+For this project, we have collected the data from the Kaggle dataset - “[Cardiovascular Disease by Aidan](https://www.kaggle.com/datasets/colewelkins/cardiovascular-disease)”.
 As per the information provided, this data represents consolidated data from two sources:
 
 1. UCI Machine Learning Repository - Heart Disease Dataset
 2. Kaggle - Heart Disease Dataset by YasserH
 
-In the original dataset there are about 68000 rows of data. However, to keep our analysis simple we have preserved the 2000 rows using random selection and discarded the rest of the data.
+In the original dataset, there are about 68000 rows of data. However, to keep our analysis simple we have preserved the 2000 rows using random selection and discarded the rest of the data.
 
 ## Contribution
 
-In this project other than me three other people also contributed. The worked with different combination of variables.
+In this project, three other people also worked with different combinations of variables.
 
 1. [Sushant Thapa](https://github.com/sushant-thapa) - You can check their work on other variables [here](https://github.com/sushant-thapa/statistical_analysis_on_hypertension_dataset).
 2. [Harika Prathipati](https://github.com/Hsv0345) - You can check their work on other variables [here](https://github.com/Hsv0345/Predicting-Heart-Disease).
