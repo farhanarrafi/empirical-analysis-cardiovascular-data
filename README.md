@@ -13,7 +13,7 @@ This project aims to provide a detailed analysis of Patient Data and their relat
 3. Copy the key from the json file and replace the following line:
 
 ```json
-api_token = {"username":"farhanarrafi","key":"get_a_key_from_kaggle_to_run_the_notebook"}
+{"username":"farhanarrafi","key":"get_a_key_from_kaggle_to_run_the_notebook"}
 ```
 
 4. Run the notebook.
