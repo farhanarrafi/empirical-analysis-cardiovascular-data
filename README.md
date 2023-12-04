@@ -51,7 +51,7 @@ This project aims to provide a detailed analysis of Patient Data and their relat
 
 Using only Systolic BP and Diastolic BP provides better predictions than using all three - Weight, Systolic BP and Diastolic BP.
 
-For more details you can check the [final presentation](Final_Presentation).
+For more details you can check the [final presentation](Final_Presentation.pdf).
 
 ![Results](images/2_var_vs_3_var.png)
 
